@@ -1,0 +1,26 @@
+{
+  "rootDir": "./app",
+  "jsDir": "./js",
+  "htmlDir": "./",
+  "cssDir": "./css",
+  "resDir": "./res",
+  "distDir": "./dist",
+  "modules": [
+    {
+      "name": "minify",
+      "options": {
+        "buildTasks": [
+          "css",
+          "js",
+          "html"
+        ]
+      }
+    },
+    {
+      "name": "imagemin"
+    },
+    {
+      "name": "autoprefixer"
+    }
+  ]
+}

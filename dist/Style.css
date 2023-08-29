@@ -1,0 +1,2113 @@
+*
+{
+    font-family: 'Sen', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #181823;
+}
+header
+{
+    width: 100%;
+    height: 95px;
+
+    border: 5px solid silver;
+}
+header img
+{
+    margin: 30px;
+}
+.flex1
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    margin-top: -50px;
+    margin-right: 50px;
+
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+.buttons button
+{
+    background-color: #20b2aa;
+}
+.buttons button
+{
+    margin-top: -40px;
+}
+.buttons button:hover
+{
+    cursor: pointer;
+
+    background-color: #5221e6;
+}
+.buttons button a
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    text-decoration: none;
+
+    color: #f1f1f2;
+}
+.buttons button:nth-child(1)
+{
+    width: 132px;
+    height: 88px;
+}
+.buttons button:nth-child(2)
+{
+    width: 88px;
+    height: 88px;
+}
+.buttons button:nth-child(3)
+{
+    width: 147px;
+    height: 88px;
+}
+.buttons button:nth-child(4)
+{
+    width: 109px;
+    height: 88px;
+}
+.experience
+{
+    width: 100%;
+    height: 715px;
+    margin-top: 700px;
+
+    border: 5px solid silver;
+    background-color: #000;
+}
+.workexperience
+{
+    margin: 70px;
+
+    border: 5px solid silver;
+}
+.workexperience p:nth-child(1)
+{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 170px;
+    height: 24px;
+
+    text-transform: uppercase;
+
+    color: #8491a0;
+}
+.workexperience p:nth-child(2)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    width: 690px;
+    height: 132px;
+
+    color: #fff;
+}
+.phisolophy
+{
+    width: 100%;
+    height: 600px;
+
+    border: 5px solid silver;
+}
+.google,
+.facebook,
+.dribbble
+{
+    width: 416px;
+    height: 247px;
+
+    border: 5px solid silver;
+}
+.google p:nth-child(1),
+.facebook p:nth-child(1),
+.dribbble p:nth-child(1)
+{
+    font-size: 117px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+
+    color: #8491a0;
+}
+.google p:nth-child(2),
+.facebook p:nth-child(2),
+.dribbble p:nth-child(2)
+{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #fff;
+}
+.google p:nth-child(3),
+.facebook p:nth-child(3),
+.dribbble p:nth-child(3)
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 300px;
+    height: 48px;
+
+    color: #636c78;
+}
+.google span
+{
+    color: #3cc74e;
+}
+.facebook span
+{
+    color: #609bff;
+}
+.dribbble span
+{
+    color: #e95d90;
+}
+.flex2
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    justify-content: space-around;
+}
+.philosophyvalues
+{
+    width: 720px;
+    height: 600px;
+    padding-right: 470px;
+
+    background-color: #fff3e4;
+}
+.philosophyimage
+{
+    width: 720px;
+    height: 600px;
+    margin-left: 1px;
+
+    background: url('../Img/philosophyimage.svg') no-repeat;
+}
+.flex3
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    justify-content: flex-end;
+}
+.philosophyvalues hr
+{
+    width: 116px;
+}
+.Ithinkeveryone p:nth-child(1)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    width: 540px;
+    height: 66px;
+}
+.Ithinkeveryone p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 780px;
+    height: 108px;
+    margin-top: 50px;
+
+    color: #5b6876;
+}
+.Ithinkeveryone
+{
+    margin: 150px;
+}
+.MoreAboutMe
+{
+    margin-left: 150px;
+}
+.philosophyvalues hr
+{
+    margin-left: 150px;
+}
+.skill
+{
+    width: 100%;
+    height: 750px;
+
+    border: 5px solid silver;
+    background-color: #000;
+}
+.skills
+{
+    width: 416px;
+    height: 225px;
+    margin: 150px;
+
+    border: 5px solid silver;
+}
+.skills p:nth-child(1)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    color: #fff;
+}
+.skills p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #8491a0;
+}
+.ProductDesign,
+.VisualDesign,
+.Photography,
+.MotionDesign
+{
+    width: 416px;
+    height: 176px;
+
+    border: 5px solid silver;
+
+    flex-shrink: 0;
+}
+.flex4
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    margin-top: -190px;
+    margin-left: 800px;
+
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+.flex5
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    margin-left: 800px;
+
+    gap: 2rem;
+}
+.ProductDesign  p:nth-child(2),
+.VisualDesign p:nth-child(2),
+.MotionDesign p:nth-child(2),
+.Photography p:nth-child(2)
+{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #fff;
+}
+.ProductDesign  p:nth-child(3),
+.VisualDesign p:nth-child(3),
+.MotionDesign p:nth-child(3),
+.Photography p:nth-child(3)
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #8491a0;
+}
+.ProductDesign  p:nth-child(3),
+.Photography p:nth-child(3)
+{
+    width: 360px;
+    height: 72px;
+}
+.VisualDesign p:nth-child(3)
+{
+    width: 350px;
+    height: 72px;
+}
+.MotionDesign p:nth-child(3)
+{
+    width: 340px;
+    height: 96px;
+}
+.cbre,
+.epiq,
+.social,
+.fresh
+{
+    width: 340px;
+    height: 140px;
+
+    border: 1px solid #181823;
+
+    flex-shrink: 0;
+}
+.flex6
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    margin-top: 50px;
+
+    justify-content: flex-start;
+}
+.flex6 img
+{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.projects
+{
+    width: 100%;
+    height: 2201px;
+
+    border: 5px solid silver;
+    background-color: #000;
+}
+.MyProjects p:nth-child(1)
+{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%; /* 24px */
+
+    text-transform: uppercase;
+
+    color: #8491a0;
+}
+.MyProjects p:nth-child(2)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    width: 572px;
+    height: 132px;
+
+    color: #fff;
+}
+.MyProjects
+{
+    margin: 200px;
+}
+.FirstDesign,
+.SecondDesign,
+.ThirdDesign,
+.FourthDesign
+{
+    width: 636px;
+    height: 800px;
+
+    border: 5px solid silver;
+    background-color: #181823;
+}
+.restaurant1 p:nth-child(1)
+{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #fff;
+}
+.restaurant1 p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 530px;
+    height: 81px;
+
+    color: #8491a0;
+}
+.restaurant1
+{
+    margin: 25px;
+}
+.flex7
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+
+    margin-left: 230px;
+
+    gap: 1rem;
+}
+.flex8
+{
+    display:         flex;
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    float: right;
+    flex-direction: column;
+
+    margin-top: -1900px;
+    margin-right: 200px;
+
+    gap: 5rem;
+}
+.flex8 button
+{
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%; /* 27px */
+
+    width: 247px;
+    height: 75px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: 1px solid #5221e6;
+    background-color: #000;
+
+    align-self: center;
+}
+.flex9
+{
+    display: flex;
+
+    width: 100%;
+    height: 600px;
+
+    border: 1px solid silver;
+}
+.intagram,
+.instimage
+{
+    width: 50%;
+    height: 600px;
+
+    border: 1px solid silver;
+}
+.instimage
+{
+    background: url('../Img/instimage.svg') no-repeat;
+    background-size: 100%;
+}
+.intagram
+{
+    background-color: #fbe4ff;
+}
+.inst_text p:nth-child(1)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    color: #181823;
+}
+.inst_text p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 725px;
+    height: 108px;
+    margin-top: 10px;
+
+    color: #5b6876;
+}
+.inst_text
+{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.Followme
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    margin-left: 100px;
+
+    color: #181823;
+}
+.intagram hr
+{
+    width: 125px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 100px;
+
+    background: #8491a0;
+}
+.Dribbble
+{
+    width: 100%;
+    height: 1248px;
+
+    border: 5px solid silver;
+    background-color: #000;
+}
+.FollowMeOnDribble
+{
+    margin: 200px;
+}
+.FollowMeOnDribble p:nth-child(1)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 300%;
+
+    color: #fff;
+}
+.FollowMeOnDribble p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 636px;
+    height: 54px;
+
+    color: #8491a0;
+}
+.FollowMeOnDribble p:nth-child(3)
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 500%;
+
+    color: #fff;
+}
+.FollowMeOnDribble hr
+{
+    width: 171px;
+    height: 1px;
+    margin-top: -20px;
+
+    background: #8491a0;
+}
+.Dribbble img
+{
+    margin-left: 200px;
+}
+.InfoAboutMe
+{
+    width: 100%;
+    height: 2722px;
+
+    border: 5px solid silver;
+    background: #000;
+}
+.WhatPeopleSayAboutMe
+{
+    width: 636px;
+    height: 278px;
+    margin: 200px;
+
+    border: 5px solid silver;
+}
+.WhatPeopleSayAboutMe p:nth-child(1)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    width: 588px;
+    height: 132px;
+
+    color: #fff;
+}
+.WhatPeopleSayAboutMe p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 550px;
+    height: 54px;
+
+    color: #8491a0;
+}
+.WhatPeopleSayAboutMe p:nth-child(3)
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #fff;
+}
+.WhatPeopleSayAboutMe hr
+{
+    width: 146px;
+    height: 1px;
+
+    background: #8491a0;
+}
+.Richard,
+.Emily,
+.Vincert
+{
+    width: 636px;
+    height: 700px;
+
+    border: 1px solid #5b6876;
+    background: #000;
+
+    flex-shrink: 0;
+}
+.flex10
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -500px;
+    margin-right: 50px;
+
+    gap: 10rem;
+    align-items: flex-end;
+}
+.Richard .Robin p:nth-child(1),
+.Emily .Parker p:nth-child(1),
+.Vincert .Rudd p:nth-child(1)
+{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+
+    width: 508px;
+    height: 108px;
+
+    color: #fff;
+}
+.Richard .Robin p:nth-child(2),
+.Emily .Parker p:nth-child(2),
+.Vincert .Rudd p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    line-height: 700%;
+
+    color: #5b6876;
+}
+.Richard .Robin p:nth-child(3),
+.Emily .Parker p:nth-child(3),
+.Vincert .Rudd p:nth-child(3)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: -30px;
+
+    color: #5b6876;
+}
+.Richard .Robin,
+.Parker,
+.Rudd
+{
+    margin: 50px;
+}
+.photoes
+{
+    width: 100%;
+    height: 959px;
+
+    border: 5px solid silver;
+    background: #000;
+}
+.photoes .photography p:nth-child(1)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    color: #fff;
+}
+.photoes .photography p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 500px;
+    height: 54px;
+
+    color: #8491a0;
+}
+.photography
+{
+    margin: 100px;
+    margin-left: 200px;
+}
+.ITALY,
+.AUSTRALIA,
+.INDIA,
+.BRAZIL
+{
+    height: 51px;
+
+    border: 1px solid #5221e6;
+
+    flex-shrink: 0;
+}
+.ITALY:hover,
+.AUSTRALIA:hover,
+.INDIA:hover,
+.BRAZIL:hover
+{
+    cursor: pointer;
+
+    background: #5221e6;
+}
+.ITALY
+{
+    width: 88px;
+}
+.AUSTRALIA
+{
+    width: 136px;
+}
+.INDIA
+{
+    width: 92px;
+}
+.BRAZIL
+{
+    width: 102px;
+}
+.ITALY a,
+.AUSTRALIA a,
+.INDIA a,
+.BRAZIL a
+{
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.flex11
+{
+    display: flex;
+
+    margin-right: 1020px;
+
+    justify-content: center;
+    gap: 1rem;
+}
+.ITALY_Image,
+.AUSTRALIA_Image,
+.INDIA_Image,
+.BRAZIL_Image
+{
+    width: 306px;
+    height: 420px;
+
+    flex-shrink: 0;
+}
+.ITALY_Image
+{
+    background: url('../Img/italy-image.svg') no-repeat;
+}
+.AUSTRALIA_Image
+{
+    background: url('../Img/australia.svg') no-repeat;
+}
+.INDIA_Image
+{
+    background: url('../Img/india.svg') no-repeat;
+}
+.BRAZIL_Image
+{
+    background: url('../Img/brazil.svg') no-repeat;
+}
+.flex12
+{
+    display: flex;
+
+    margin-top: 50px;
+    margin-right: 220px;
+
+    justify-content: center;
+    gap: 1rem;
+}
+.LetsStart
+{
+    width: 100%;
+    height: 900px;
+
+    border: 5px solid silver;
+    background: #000;
+}
+.LetsGetStarted p:nth-child(1)
+{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 200%;
+
+    color: #fff;
+}
+.LetsGetStarted p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 200%;
+
+    width: 526px;
+    height: 54px;
+
+    color: #8491a0;
+}
+.LetsGetStarted
+{
+    margin: 300px;
+}
+form p
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #fff;
+}
+form input:nth-child(2),
+form input:nth-child(4)
+{
+    width: 526px;
+    height: 50px;
+
+    border: 0;
+    background: #181823;
+}
+form p:nth-child(3)
+{
+    margin-top: 20px;
+}
+form p:nth-child(5)
+{
+    margin-top: 50px;
+}
+form
+{
+    float: right;
+
+    margin-top: -500px;
+    margin-right: 100px;
+}
+form textarea
+{
+    width: 526px;
+    height: 100px;
+
+    border: 0;
+    background: #181823;
+}
+.send
+{
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%; /* 27px */
+
+    width: 526px;
+    height: 75px;
+    margin-top: 50px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    border: 0;
+    background: #5221e6;
+}
+footer
+{
+    width: 100%;
+    height: 422px;
+    margin-top: 10775px;
+
+    border: 5px solid silver;
+    background: #181823;
+}
+.flex13
+{
+    display: flex;
+
+    margin-left: 50px;
+
+    gap: 1rem;
+}
+.Footer_Logo
+{
+    margin: 50px;
+}
+.NotCopyright
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    margin-top: 100px;
+    margin-left: 50px;
+
+    color: #8491a0;
+}
+footer .links1
+{
+    line-height: 300%;
+
+    float: right;
+
+    margin-top: -200px;
+    margin-right: 400px;
+
+    list-style: none;
+}
+footer .links1 a,
+footer .links2 a
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+footer .links2
+{
+    line-height: 300%;
+
+    float: right;
+
+    margin-top: -200px;
+    margin-right: 200px;
+
+    list-style: none;
+}
+aside
+{
+    width: 750px;
+    height: 1195px;
+    margin-top: -11580px;
+
+    border: 5px solid silver;
+    background: #000;
+}
+aside img
+{
+    margin-top: 200px;
+}
+main
+{
+    position: relative;
+    top: 400px;
+}
+aside p:nth-child(5)
+{
+    font-size: 78px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+    width: 738px;
+    height: 282px;
+    margin-top: -500px;
+    margin-left: 680px;
+
+    color: #fff;
+}
+aside p:nth-child(6)
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    width: 680px;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 680px;
+
+    color: #fff;
+}
+aside span
+{
+    color: #888b8b;
+}
+.adapting_flex_6_1,
+.adapting_flex_6_2,
+.adapting_flex_6_3
+{
+    display: none;
+}
+.Richard img:nth-child(2)
+{
+    display: none;
+}
+.Emily img:nth-child(2)
+{
+    display: none;
+}
+.Vincert img:nth-child(2)
+{
+    display: none;
+}
+.Adapting_flex12_1,
+.Adapting_flex12_2
+{
+    display: none;
+}
+.adapting_menu,
+.Adapting-mobile-robin,
+.Adapting_Robin
+{
+    display: none;
+}
+.Adapting_Flex11_1,
+.Adapting_Flex11_2
+{
+    display: none;
+}
+.Dribbble .Adapting_Mobile_dribble
+{
+    display: none;
+}
+.adapting_menu
+{
+    display: none;
+}
+.adapting_flex_links
+{
+    display: none;
+}
+.LetsStart form input:focus,
+.LetsStart textarea:focus
+{
+    font-size: 30px;
+
+    color: #fff;
+}
+@media screen and (min-width:700px) and (max-width:800px)
+{
+    aside
+    {
+        height: 1250px;
+        margin-top: -14400px;
+        margin-left: 1px;
+    }
+    aside img:nth-child(1),
+    .adapting_menu,
+    .Adapting-mobile-robin
+    {
+        display: none;
+    }
+    aside img:nth-child(2)
+    {
+        display: block;
+    }
+    aside p:nth-child(5)
+    {
+        font-size: 46px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+
+        position: relative;
+        top: -300px;
+
+        width: 408px;
+        height: 335px;
+        margin-top: -130px;
+        margin-left: 240px;
+
+        color: #fff;
+    }
+    aside p:nth-child(6)
+    {
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 150%;
+
+        position: relative;
+        top: -340px;
+
+        width: 408px;
+        height: 108px;
+        margin-left: 240px;
+
+        color: #fff;
+    }
+    .flex2 .google
+    {
+        width: 213px;
+        height: 369px;
+    }
+    .flex2,
+    .facebook
+    {
+        width: 214px;
+        height: 369px;
+    }
+    .flex2 .dribbble
+    {
+        width: 212px;
+        height: 393px;
+    }
+    .flex2 .google p:nth-child(3)
+    {
+        width: 197px;
+        height: 96px;
+    }
+    .flex2 .google p:nth-child(2),
+    .flex2 .facebook p:nth-child(2),
+    .flex2 .dribbble p:nth-child(2)
+    {
+        width: 197px;
+        height: 108px;
+    }
+    .flex2 .google p:nth-child(3),
+    .flex2 .facebook p:nth-child(3)
+    {
+        width: 197px;
+        height: 96px;
+    }
+    .flex2 .dribbble p:nth-child(3)
+    {
+        width: 197px;
+        height: 120px;
+    }
+    .flex2
+    {
+        margin-left: 250px;
+    }
+    .philosophyvalues
+    {
+        width: 50px;
+        height: 600px;
+    }
+    .Ithinkeveryone p:nth-child(1)
+    {
+        width: 304px;
+        height: 132px;
+    }
+    .Ithinkeveryone p:nth-child(2)
+    {
+        width: 304px;
+        height: 189px;
+    }
+    .MoreAboutMe
+    {
+        width: 116px;
+        height: 24px;
+        margin-top: -150px;
+    }
+    .skills
+    {
+        width: 688px;
+        height: 171px;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .skill
+    {
+        height: 700px;
+    }
+    .flex6
+    {
+        display: none;
+    }
+    .adapting_flex_6_1,
+    .adapting_flex_6_2,
+    .adapting_flex_6_3
+    {
+        position: relative;
+        top: 670px;
+
+        display: flex;
+    }
+    .skill
+    {
+        height: 1500px;
+    }
+    .flex4 .ProductDesign,
+    .flex4 .VisualDesign,
+    .flex5 .Photography
+    {
+        width: 332px;
+        height: 200px;
+    }
+    .flex5 .Photography
+    {
+        margin-left: 60px;
+    }
+    .flex5 .MotionDesign
+    {
+        width: 273px;
+        height: 224px;
+    }
+    .flex4 .ProductDesign p:nth-child(3),
+    .flex4 .VisualDesign p:nth-child(3),
+    .flex5 .Photography p:nth-child(3)
+    {
+        width: 284px;
+        height: 96px;
+    }
+    .flex5 .MotionDesign p:nth-child(3)
+    {
+        width: 284px;
+        height: 120px;
+    }
+    .flex4,
+    .flex5
+    {
+        position: relative;
+        top: 300px;
+        right: 800px;
+
+        gap: 0;
+    }
+    .projects
+    {
+        height: 4000px;
+    }
+    .flex7
+    {
+        position: relative;
+        right: 200px;
+    }
+    .flex8
+    {
+        position: relative;
+        top: 2000px;
+        left: 180px;
+    }
+    .MyProjects
+    {
+        margin-left: 20px;
+    }
+    .Dribbble img:nth-child(2)
+    {
+        width: 688px;
+        height: 480px;
+        margin-left: 5px;
+    }
+    .FollowMeOnDribble
+    {
+        margin-left: 20px;
+    }
+    .Richard img:nth-child(1),
+    .Emily img:nth-child(1),
+    .Vincert img:nth-child(1)
+    {
+        display: none;
+    }
+    .Richard img:nth-child(2),
+    .Emily img:nth-child(2),
+    .Vincert img:nth-child(2)
+    {
+        display: block;
+    }
+    .Richard
+    {
+        width: 333px;
+        height: 810px;
+    }
+    .Emily
+    {
+        width: 333px;
+        height: 700px;
+    }
+    .Richard .Robin p:nth-child(1)
+    {
+        width: 269px;
+        height: 324px;
+    }
+    .Richard .Robin
+    {
+        margin-top: 10px;
+    }
+    .Emily .Parker p:nth-child(1)
+    {
+        width: 269px;
+        height: 174px;
+    }
+    .Vincert
+    {
+        width: 333px;
+        height: 800px;
+    }
+    .Vincert .Rudd p:nth-child(1)
+    {
+        width: 269px;
+        height: 261px;
+    }
+    .InfoAboutMe
+    {
+        height: 2800px;
+    }
+    .flex10
+    {
+        position: relative;
+        top: -150px;
+        left: 50px;
+    }
+    .WhatPeopleSayAboutMe
+    {
+        width: 333px;
+        height: 371px;
+        margin-left: 20px;
+    }
+    .WhatPeopleSayAboutMe p:nth-child(1)
+    {
+        width: 346px;
+        height: 198px;
+    }
+    .WhatPeopleSayAboutMe p:nth-child(2)
+    {
+        width: 320px;
+        height: 81px;
+    }
+    .flex8 button
+    {
+        display: none;
+    }
+    .photoes
+    {
+        height: 1300px;
+    }
+    .flex12
+    {
+        display: none;
+    }
+    .Adapting_flex12_1,
+    .Adapting_flex12_2
+    {
+        display: flex;
+
+        margin-top: 20px;
+        margin-left: 20px;
+
+        gap: 1rem;
+    }
+    .flex11
+    {
+        margin-left: 260px;
+    }
+    .photoes .photography p:nth-child(2)
+    {
+        width: 630px;
+        height: 54px;
+    }
+    .photoes .photography
+    {
+        margin-left: 20px;
+    }
+    .LetsStart
+    {
+        height: 700px;
+    }
+    .LetsStart .LetsGetStarted p:nth-child(1)
+    {
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+
+        width: 332px;
+        height: 132px;
+    }
+    .LetsStart .LetsGetStarted p:nth-child(2)
+    {
+        width: 330px;
+        height: 81px;
+    }
+    .LetsStart form input:nth-child(2),
+    .LetsStart form input:nth-child(4)
+    {
+        width: 332px;
+        height: 50px;
+    }
+    .LetsStart textarea
+    {
+        width: 332px;
+        height: 100px;
+    }
+    .LetsStart form input[type='submit']
+    {
+        width: 332px;
+        height: 75px;
+
+        border: 5px solid silver;
+    }
+    .LetsStart .LetsGetStarted
+    {
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+    .LetsStart form
+    {
+        margin-top: -530px;
+        margin-right: 5px;
+    }
+    .experience .workexperience p:nth-child(2)
+    {
+        width: 600px;
+        height: 132px;
+    }
+    .NotCopyright
+    {
+        position: relative;
+        top: 90px;
+
+        width: 320px;
+        height: 48px;
+    }
+    .philosophyimage
+    {
+        width: 384px;
+        height: 600px;
+
+        background: url('../Img/adapting-phisolophy.svg') no-repeat;
+
+        flex-shrink: 0;
+    }
+    .philosophyvalues .Ithinkeveryone p:nth-child(1),
+    .philosophyvalues .Ithinkeveryone p:nth-child(2)
+    {
+        margin-left: 60px;
+    }
+    .phisolophy .MoreAboutMe,
+    .phisolophy hr
+    {
+        position: relative;
+        left: 60px;
+    }
+    .intagram .inst_text p:nth-child(2)
+    {
+        width: 304px;
+        height: 189px;
+        margin-left: -50px;
+    }
+    .intagram .inst_text p:nth-child(1)
+    {
+        margin-left: -50px;
+    }
+    .instimage
+    {
+        background: url('../Img/adapting-instagramm-image.svg') no-repeat;
+
+        flex-shrink: 0;
+    }
+    footer
+    {
+        position: relative;
+        top: 2760px;
+
+        margin-left: -1px;
+    }
+    footer .links1
+    {
+        position: relative;
+        top: -2100px;
+    }
+    footer .links2
+    {
+        position: relative;
+        top: -2100px;
+    }
+    .adapting_flex_6_1  img,
+    .adapting_flex_6_2 img,
+    .adapting_flex_6_3 img
+    {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .adapting_flex_6_3 .social img
+    {
+        margin-left: 10px;
+    }
+    .adapting_flex_6_3 .fresh img
+    {
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:400px)
+{
+    aside .Adapting_Robin,
+    .Adapting-mobile-robin,
+    header .flex1,
+    .flex6
+    {
+        display: none;
+    }
+    .InfoAboutMe .WhatPeopleSayAboutMe
+    {
+        position: relative;
+        right: 90px;
+    }
+    header
+    {
+        width: 230%;
+
+        background: #000;
+    }
+    .adapting_menu button
+    {
+        width: 24px;
+        height: 24px;
+        margin-left: 400px;
+
+        background: url('../Img/Burger_menu.svg') no-repeat;
+        background-size: 100%;
+    }
+    .adapting_menu
+    {
+        position: relative;
+        top: 80px;
+        right: 50px;
+
+        display: block;
+    }
+    .adapting_menu button:hover ~ .adapting_menu_block
+    {
+        display: flex;
+    }
+    .adapting_menu_block:hover
+    {
+        display: flex;
+    }
+    .adapting_menu_block
+    {
+        position: relative;
+        right: 500px;
+
+        display: none;
+        flex-direction: column;
+
+        width: 400px;
+        height: 500px;
+        margin-top: -40px;
+        margin-left: 370px;
+
+        border: 5px solid #f5e;
+        background-color: #000;
+
+        gap: 2rem;
+    }
+    .adapting_menu_block div:nth-child(1),
+    .adapting_menu_block div:nth-child(2),
+    .adapting_menu_block div:nth-child(3),
+    .adapting_menu_block div:nth-child(4)
+    {
+        width: 132px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 100px;
+
+        border: 1px solid silver;
+        background-color: #9198ff;
+    }
+    .adapting_menu_block div:nth-child(1) a,
+    .adapting_menu_block div:nth-child(2) a,
+    .adapting_menu_block div:nth-child(3) a,
+    .adapting_menu_block div:nth-child(4) a
+    {
+        text-decoration: none;
+
+        color: #fff;
+    }
+    .adapting_menu
+    {
+        margin-top: -60px;
+        margin-left: 400px;
+    }
+    aside
+    {
+        width: 230%;
+        height: 1690px;
+        margin-top: -18280px;
+    }
+    main
+    {
+        position: relative;
+        top: 900px;
+    }
+    aside p:nth-child(6)
+    {
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+
+        width: 320px;
+        height: 135px;
+        margin-top: 350px;
+        margin-left: 50px;
+    }
+    aside p:nth-child(5)
+    {
+        position: relative;
+        right: 650px;
+
+        width: 620px;
+        height: 135px;
+        margin-top: 80px;
+    }
+    .experience
+    {
+        width: 230%;
+        height: 1200px;
+    }
+    .Dribbble
+    {
+        width: 230%;
+        height: 1900px;
+    }
+    .Dribbble img:nth-child(2)
+    {
+        display: block;
+
+        width: 490px;
+
+        border-radius: 0 0 8px 8px;
+    }
+    .Dribbble .Adapting_Mobile_dribble
+    {
+        width: 340px;
+        height: 700px;
+        margin-left: 1000px;
+    }
+    .FollowMeOnDribble p:nth-child(2)
+    {
+        width: 320px;
+        height: 108px;
+    }
+    .FollowMeOnDribble
+    {
+        margin-top: 700px;
+    }
+    .skill
+    {
+        width: 230%;
+        height: 1800px;
+    }
+    .InfoAboutMe
+    {
+        width: 230%;
+        height: 3500px;
+    }
+    .flex10
+    {
+        position: relative;
+        top: 500px;
+    }
+    .photoes
+    {
+        width: 230%;
+        height: 2400px;
+    }
+    .flex11
+    {
+        display: none;
+    }
+    .Adapting_Flex11_1,
+    .Adapting_Flex11_2
+    {
+        display: flex;
+
+        margin-left: 190px;
+
+        gap: 2rem;
+    }
+    .photography
+    {
+        margin-left: 190px;
+    }
+    .Adapting_Flex11_1 .ITALY,
+    .Adapting_Flex11_1 .AUSTRALIA,
+    .Adapting_Flex11_2 .INDIA,
+    .Adapting_Flex11_2 .BRAZIL
+    {
+        width: 148px;
+        height: 51px;
+
+        flex-shrink: 0;
+    }
+    .flex12
+    {
+        position: relative;
+        top: 80px;
+
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 190px;
+    }
+    .InfoAboutMe .WhatPeopleSayAboutMe p:nth-child(2)
+    {
+        width: 320px;
+        height: 81px;
+    }
+    .InfoAboutMe .WhatPeopleSayAboutMe
+    {
+        margin-left: 135px;
+    }
+    .projects
+    {
+        width: 230%;
+        height: 3900px;
+    }
+    .flex7 .FirstDesign img:nth-child(1),
+    .FirstDesign,
+    .SecondDesign img:nth-child(1),
+    .SecondDesign,
+    .flex8 .ThirdDesign img:nth-child(1),
+    .ThirdDesign,
+    .FourthDesign img:nth-child(1),
+    .FourthDesign
+    {
+        width: 320px;
+        height: 400px;
+    }
+    .flex8
+    {
+        margin-top: 100px;
+    }
+    .flex7
+    {
+        margin-left: 160px;
+    }
+    .FirstDesign,
+    .SecondDesign,
+    .ThirdDesign,
+    .FourthDesign
+    {
+        height: 700px;
+    }
+    .FirstDesign .restaurant1 p:nth-child(2),
+    .SecondDesign .restaurant1 p:nth-child(2),
+    .ThirdDesign .restaurant1 p:nth-child(2),
+    .FourthDesign .restaurant1 p:nth-child(2)
+    {
+        width: 256px;
+        height: 189px;
+    }
+    .adapting_flex_6_1,
+    .adapting_flex_6_2,
+    .adapting_flex_6_3
+    {
+        position: relative;
+        top: 400px;
+
+        display: flex;
+    }
+    .flex4,
+    .flex5
+    {
+        position: relative;
+        top: 300px;
+        right: 800px;
+
+        flex-direction: column;
+    }
+    .experience .flex2 .google
+    {
+        width: 320px;
+        height: 285px;
+    }
+    .experience .flex2 .facebook
+    {
+        width: 320px;
+        height: 277px;
+    }
+    .experience .flex2 .dribbble
+    {
+        width: 320px;
+        height: 265px;
+    }
+    .experience .flex2
+    {
+        flex-direction: column;
+
+        margin-left: 100px;
+    }
+    .philosophyvalues
+    {
+        width: 33%;
+        padding-top: 50px;
+    }
+    .philosophyimage
+    {
+        width: 1500px;
+
+        background-size: 46%;
+
+        flex-shrink: 0;
+    }
+    .intagram,
+    .instimage
+    {
+        width: 230%;
+
+        flex-shrink: 0;
+    }
+    .flex9
+    {
+        flex-direction: column;
+    }
+    .phisolophy
+    {
+        width: 230%;
+        height: 1400px;
+    }
+    .flex3
+    {
+        flex-direction: column;
+
+        height: 1250px;
+    }
+    .LetsStart
+    {
+        width: 230%;
+    }
+    .LetsStart .LetsGetStarted p:nth-child(1)
+    {
+        font-size: 32px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+
+        width: 320px;
+        height: 39px;
+    }
+    .LetsStart .LetsGetStarted
+    {
+        margin-top: 100px;
+        margin-left: 195px;
+    }
+    .LetsStart form
+    {
+        margin-top: -90px;
+    }
+    .phisolophy
+    {
+        height: 1200px;
+    }
+    .flex8 button
+    {
+        display: none;
+    }
+    .Adapting_Flex11_2
+    {
+        margin-top: 20px;
+    }
+    .LetsStart form input[type='text'],
+    .LetsStart form input[type='email']
+    {
+        width: 320px;
+        height: 50px;
+
+        flex-shrink: 0;
+    }
+    .LetsStart form textarea
+    {
+        width: 320px;
+        height: 100px;
+
+        flex-shrink: 0;
+    }
+    .LetsStart form input[type='submit']
+    {
+        width: 320px;
+        height: 75px;
+    }
+    .LetsStart form
+    {
+        margin-right: 180px;
+    }
+    footer
+    {
+        position: relative;
+        top: 6700px;
+
+        width: 230%;
+        height: 600px;
+    }
+    .Ithinkeveryone p:nth-child(2)
+    {
+        width: 320px;
+        height: 189px;
+    }
+    .philosophyvalues .MoreAboutMe
+    {
+        margin-top: -90px;
+    }
+    .NotCopyright
+    {
+        width: 320px;
+        height: 48px;
+        margin-top: 370px;
+    }
+    .links1,
+    .links2
+    {
+        display: none;
+    }
+    .adapting_flex_links
+    {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: -400px;
+        margin-left: 50px;
+
+        gap: 2rem;
+    }
+    .adapting_flex_links a
+    {
+        text-decoration: none;
+
+        color: #fff;
+    }
+    .adapting_flex_6_1  img,
+    .adapting_flex_6_2 img,
+    .adapting_flex_6_3 img
+    {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .adapting_flex_6_3 .social img
+    {
+        margin-left: 10px;
+    }
+    .adapting_flex_6_3 .fresh img
+    {
+        margin-left: 70px;
+    }
+    .adapting_flex_6_1 .cbre,
+    .adapting_flex_6_1 .epiq,
+    .adapting_flex_6_2 .social,
+    .adapting_flex_6_2 .fresh,
+    .adapting_flex_6_3 .social,
+    .adapting_flex_6_3 .fresh
+    {
+        width: 180px;
+        height: 140px;
+    }
+    .adapting_menu button
+    {
+        position: relative;
+        right: 100px;
+    }
+    header
+    {
+        display: none;
+    }
+    .adapting_menu
+    {
+        margin-left: 150px;
+    }
+    .intagram .inst_text p:nth-child(2)
+    {
+        width: 320px;
+        height: 162px;
+    }
+    .workexperience p:nth-child(2)
+    {
+        font-size: 32px;
+
+        width: 320px;
+        height: 117px;
+    }
+    .Robin
+    {
+        width: 690px;
+    }
+    .MyProjects
+    {
+        margin-left: 100px;
+    }
+    .instimage
+    {
+        background: url('../Img/philosophyimage.svg') no-repeat;
+    }
+    .MoreAboutMe
+    {
+        width: 116px;
+        height: 18px;
+    }
+}
